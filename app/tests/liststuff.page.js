@@ -11,8 +11,8 @@ class ListStuffPage {
     await testController.expect(this.pageSelector.exists).ok();
   }
 
-  /**Asserts that this page has a table with at least two rows */
-  async hasTable(testController){
+  /** Asserts that this page has a table with at least two rows */
+  async hasTable(testController) {
     const rowCount = Selector('tr').count;
     await testController.expect(rowCount).gte(2);
   }
