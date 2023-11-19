@@ -1,6 +1,7 @@
 import { landingPage } from './landing.page';
 import { signinPage } from './signin.page';
 import { signoutPage } from './signout.page';
+import { listStuffPage } from './liststuff.page';
 import { navBar } from './navbar.component';
 
 /* global fixture:false, test:false */
